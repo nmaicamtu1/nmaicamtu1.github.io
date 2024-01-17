@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: rgb(74, 53, 209);
+}
+.styleH1 {
+    text-align: left;
+} 
+table, th, td {
+    border: 3px solid pink;
+    border-collapse: collapse;
+}
