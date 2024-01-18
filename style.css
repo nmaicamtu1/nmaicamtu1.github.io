@@ -17,4 +17,5 @@ table, th, td {
 .wrap {
     display: flex;
     justify-content: space-between;
+    width: 700px;
 }
