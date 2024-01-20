@@ -3,6 +3,8 @@
 
 html, body, button {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -143,4 +145,27 @@ nav ul li {
 
 .text2 {
     background-color: #EBD96B;
+}
+
+.brands {
+    background-color: #EBD96B;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.brandsimage{
+    animation: marquee 15s linear infinite;
+
+}
+
+.brandsimage img {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@keyframes marquee {
+    0%   { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
 }
