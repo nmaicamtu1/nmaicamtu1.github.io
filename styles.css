@@ -169,3 +169,52 @@ nav ul li {
     0%   { transform: translateX(0%); }
     100% { transform: translateX(-100%); }
 }
+
+footer {
+    background-color: black;
+
+}
+
+.wrapper-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-footer {
+    width: 40%;
+    color: #F4F6F5;
+}
+
+.wrap-icon {
+    display: flex;
+}
+
+.icon {
+    background-color: #EBD96B;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-footer {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-footer a {
+    color: #8e8e8e;
+    text-decoration: none;
+    line-height: 2.5;
+}
