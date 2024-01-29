@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;900&display=swap');
 
 
+
 html, body, button {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -51,6 +52,7 @@ nav ul li {
     display: flex;
     list-style-type: none;
     padding: 30px;
+    transition: color 3s ease-in, background-color 3s linear ;
 }
 
 .menu ul li:hover {
@@ -66,6 +68,7 @@ nav ul li {
     color: azure;
     border: 0px;
     border-radius: 7px;
+    transition: background-color 1s;
 }
 
 .signUpbutton:hover {
@@ -218,3 +221,11 @@ footer {
     text-decoration: none;
     line-height: 2.5;
 }
+
+.calculated {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: darksalmon;
+ }
