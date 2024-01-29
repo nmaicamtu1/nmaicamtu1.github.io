@@ -91,7 +91,7 @@ var romanToInt = function(s) {
         M: 1000
     }
 
-    const convertS = s.split("")
+    const convertS = s.toUpperCase().split("")
     let total = 0;
     for (let index = 0; index < convertS.length; index++) {
         if (num[convertS[index]] < num[convertS[index + 1]]) {
@@ -101,3 +101,24 @@ var romanToInt = function(s) {
     }
     return total
 };
+
+// b1: xu ly k load lai trang
+//b2: get gia tri roman input
+
+const submitButton = document.querySelector("#buttonResult") //khai bao bien cho button
+const romanInput = document.querySelector("#RomanNum") //khai bao bien cho roman input
+const arabicInput = document.querySelector("#ArabicNum") //khai bao bien cho result
+
+// console.log(romanInput)
+// console.log(submitButton)
+submitButton.onclick = function (event) {
+    event.preventDefault() // prevent load page
+    // console.log(romanToInt(romanInput.value))
+    const result = romanToInt(romanInput.value) 
+    arabicInput.value = result
+}
+
+
+
+
+
